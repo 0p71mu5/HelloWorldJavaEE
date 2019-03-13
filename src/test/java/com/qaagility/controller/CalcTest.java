@@ -2,7 +2,7 @@ package com.qaagility.controller;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import com.qaagility.*;
+import com.qaagility.javaee.*;
 
 public class CalcTest {
 
