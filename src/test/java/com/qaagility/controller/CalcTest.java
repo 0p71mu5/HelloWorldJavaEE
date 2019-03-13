@@ -18,7 +18,7 @@ public class CalcTest {
         System.out.println("fast-updated");
       }
 
-	@Test	
+	@Test
       public void testCalc() {
         //assertEquals("Result", 9, 9);
 	Calcmul testcalcmul = new Calcmul();
@@ -27,7 +27,7 @@ public class CalcTest {
 	assertEquals(testcalall(),9);
       }
 
-	@Test	
+	@Test
       public void testCalc1() {
         assertEquals("Result - Fail", 9, 9);
       }
