@@ -25,7 +25,7 @@ public class CalcTest {
 	Calculator testcaladd = new Calculator();
 	
 	assertEquals(testcalcmul.mul(),18);
-	assertEquals(testcalall.add(),9);
+	assertEquals(testcaladd.add(),9);
       }
 
 	@Test
