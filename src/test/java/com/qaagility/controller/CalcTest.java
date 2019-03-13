@@ -2,7 +2,8 @@ package com.qaagility.controller;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
- 
+import com.qaagility.javaee.*;
+
 public class CalcTest {
 
       public void testSlow() {
@@ -17,18 +18,17 @@ public class CalcTest {
         System.out.println("fast-updated");
       }
 
-	@Test	
+	@Test
       public void testCalc() {
-        //assertEquals("Result", 9, 9);
 	Calcmul testcalmul = new Calcmul();
-	Calmul test caladd = new Calcucator();
+	Calculator testcaladd = new Calculator();
 
 	assertEquals(testcalmul.mul(),18);
 	assertEquals(testcaladd.add(),9);
 
       }
 
-	@Test	
+	@Test
       public void testCalc1() {
         assertEquals("Result - Fail", 9, 9);
       }
