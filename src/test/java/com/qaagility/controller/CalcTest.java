@@ -23,8 +23,9 @@ public class CalcTest {
         //assertEquals("Result", 9, 9);
 	Calcmul testcalcmul = new Calcmul();
 	Calculator testcaladd = new Calculator();
-	assertEquals(testcalcmul(),18);
-	assertEquals(testcalall(),9);
+	
+	assertEquals(testcalcmul.mul(),18);
+	assertEquals(testcalall.add(),9);
       }
 
 	@Test
