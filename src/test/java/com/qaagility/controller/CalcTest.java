@@ -19,7 +19,13 @@ public class CalcTest {
 
 	@Test	
       public void testCalc() {
-        assertEquals("Result", 9, 9);
+        //assertEquals("Result", 9, 9);
+	Calcmul testcalmul = new Calcmul();
+	Calmul test caladd = new Calcucator();
+
+	assertEquals(testcalmul.mul(),18);
+	assertEquals(testcaladd.add(),9);
+
       }
 
 	@Test	
